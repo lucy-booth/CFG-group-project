@@ -21,6 +21,7 @@ footer {
     top: 97%;
     background: white;
     place-self: baseline;
+    font-size: 14px;
   }
   
   footer > a {
@@ -107,10 +108,10 @@ footer {
     cursor: not-allowed;
 }
 .calendar__date--selected {
-    color: #ff374b;
+    color: #3c41df;
 }
 .calendar__date--selected::before {
-    background-color: #ffeaec;
+    background-color: RGBA(246,135,18,0.54);
     border-radius: 0px;
 }
 .calendar__date--first-date::before {
@@ -128,24 +129,22 @@ footer {
     border-radius: 24px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #ff374b;
+    background-color: #3c41df;
     width: 10px;
     height: 4px;
 }
 .calendar__date--range-end {
-    color: #fff;
+    color: #3c41df;
 }
 .calendar__date--range-end::before {
-    box-shadow: 0 15px 20px -3px rgba(255, 55, 75, 0.35);
-    background-color: #ff374b;
-    border-radius: var(--accent-br);
+    box-shadow: none;
+    background-color: #F68712;
     z-index: 1;
 }
 .calendar__date--range-end::after {
-    content: "";
     position: absolute;
     height: calc(var(--height) * 0.9);
-    background-color: #ffeaec;
+    background-color: RGBA(246,135,18,0.54);
     width: 50px;
     top: 50%;
     right: 50%;

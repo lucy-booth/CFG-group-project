@@ -137,6 +137,7 @@ footer {
   position: fixed;
   top: 97%;
   background: white;
+  font-size: 14px;
 }
 
 footer > a {
